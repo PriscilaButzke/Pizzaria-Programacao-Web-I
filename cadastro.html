@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <title>Cadastro</title>
+</head>
+<header>
+    <nav id="menu">
+        <!-- Aqui começa o menu-->
+        <ul>
+            <li><a href="./login.html"> <b> Home</b> </a></li>
+            <li><a href="./cadastro.html"> <b>Novo Cadastro</b> </a></li>
+            <li><a href="./dashboard.html"> <b>Pedidos</b> </a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<body>
+
+    <div class="container">
+        <table>
+            <div class="box">
+                <tr>
+                    <th id="fazer">FAZER CADASTRO:</th>
+                </tr>
+
+                <div class="nt">
+                    <tr>
+                        <th><label class="thnome" for="nome"> Nome</label></th>
+                        <th><label class="thnome" for="telefone">Telefone</label></th>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <td><input class="input4" type="txtnome" name="nome" id="nome"
+                                placeholder="Informe seu nome completo"></td>
+                        <td><input class="input4" type="tel" name="telefone" id="telefone"
+                                placeholder="Informe seu telefone" onkeypress="$(this).mask('(00) 0000-00009')"></td>
+                    </tr>
+                </div>
+
+                <tr>
+                    <th><label class="thnome" for="txtemail">E-mail</label></th>
+                    <th><label class="thnome" for="txtcemail">Confirme seu e-mail</label></th>
+                    
+                </tr>
+                <tr>
+                    <td> <input class="input1" type="email" name="email" id="email" placeholder="Informe seu e-mail"> </td>
+                    <td> <input class="input1" type="email" name="email" id="cemail" placeholder="Confirme seu e-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <th><label class="thnome" for="endereço">Endereço</label></th>
+                    <th><label class="thnome" for="bairro">Bairro</label></th>
+                    
+                </tr>
+                <tr>
+                    <td><input class="input1" type="text" name="endereco" id="endereco"
+                        placeholder="Ex: Rua Pedro,300."></td>
+                    <td><input class="input1" type="text" name="bairro" id="bairro" placeholder="Digite seu bairro"></td>
+                </tr>
+                <tr>
+                    <th><label class="thnome" for="cidade">Cidade</label></th>
+                    <th><label class="thnome" for="estado">Estado</label></th>
+                    
+                </tr>
+                <tr>
+                    <td><select class="input1" name="selectcidade" id="scidade">
+                        <option value="escolha">Selecione</option> </td></select> 
+                    <td><select class="input1" name="selectestado" id="sestado">
+                            <option value="escolha">Selecione</option></select></td>   
+                </tr>
+                <tr>
+                    <th colspan="2"><label class="thnome" for="senha" >Senha</label></th>
+                </tr>
+                <tr>
+                    <td><input class="input3" type="password" name="password" id="password"
+                        placeholder="Crie sua senha"></td>
+                <td><input class="input3" type="password" name="cpassword" id="cpassword"
+                        placeholder="Confirme sua senha"></td>
+                </tr>
+                <tr class="cadastrar">
+                    <td colspan="2"> <input class="input2" type="submit" value="CADASTRAR"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"class="ainda"> Já possui cadastro? <a href="./login.html">Clique aqui!</a></td>
+                </tr>
+            </div>
+        </table>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

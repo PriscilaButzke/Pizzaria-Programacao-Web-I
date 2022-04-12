@@ -1,0 +1,130 @@
+* {
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* formatação do menu */
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F6DA63;
+    list-style: none;
+    text-align:center;
+    border-radius: 10px;
+
+}
+
+/*todas as opções ficam em uma linha horizontal*/
+#menu ul li {
+    display: inline;
+    margin: 0 50px 0 50px;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link ñ selecionado*/
+    background-color: #F6DA63;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #F6DA63;
+}
+
+/*quando o usuário passar o mouse.*/
+#menu ul li a:hover {
+    background-color: #D92027;
+    color: black;
+    border-bottom: 3px solid black;
+    border-radius: 20px;
+}
+table {
+    background-image: url(../img/table_background\ \(1\).png);
+     margin: 30px 0 0 30px;
+     width: 250px;
+     height: 570px;
+     border-radius: 12%;
+     padding-top: 10px;
+ }
+  
+ }
+ 
+ .box {
+     text-align: center;    
+ }
+ 
+ 
+ .input1 {
+     text-align: center;
+     width: 250px;
+     height: 30px;
+     border-radius: 20px;
+     
+ }
+ 
+ .thnome{
+    font-weight:900;
+    font-size:larger;  
+    position: relative;
+    top: 8px;
+ }
+ .input4{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:row;
+ }
+ .input2{
+    margin: 10px;;
+    width: 120px;
+    height: 25px;
+    background-color: #D92027;
+    border:#D92027;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    left: 35%;
+ }
+ a{
+    color:#D92027;
+}
+.ainda{
+    font-weight: 900px;
+    text-align: center;
+}
+.input3{
+    text-align: center;
+     width: 250px;
+     height: 30px;
+     border-radius: 20px;
+     margin-bottom: 2%;
+}
+#fazer{
+    position: relative;
+    left: 115px;
+    background-color: #D92027;
+    margin-bottom: 50px;
+    width: 270px;
+    text-align: center;
+    border-radius: 20px;
+}
