@@ -57,10 +57,12 @@ body {
 }
 table {
      background-image: url(../img/table_background\ \(1\).png);
-     margin: 30px 0 0 30px;
-     width: 250px;
-     height: 520px;
+     margin: 30px 0 0 90px;
+     width: 320px;
+     height: 300px;
      border-radius: 12%;
+     font-weight: 600;
+     text-align: center;
  
  }
  #fazer{
@@ -95,13 +97,13 @@ table {
 .container1{
     padding-left: 14%;
 }
+.container2{
+    
+}
 
 .thnome{
     font-weight:900;
     font-size:larger;  
- }
- #selecione{
-     padding-top: 30px;
  }
 
  #tamanho{
@@ -116,23 +118,7 @@ table {
     font-size:larger; 
  }
 
- input[type="number"] {
-    -webkit-appearance: textfield;
-       -moz-appearance: textfield;
-            appearance: textfield;
-  }
-  input[type=number]::-webkit-inner-spin-button { 
-    all: unset; 
-    min-width: 21px;
-    min-height: 45px;
-    margin: 17px;
-    padding: 0px;
-    background-image: 
-    linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
-    linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
-    transform: rotate(90deg) scale(0.8, 0.9);
-    cursor:pointer;
-  }
+ 
   .inputn{
       display: inline-block;
       padding-right: 13px;
@@ -141,6 +127,10 @@ table {
      display: inline;
      margin-left: 14px;
   }
+  .sabor{
+    display: inline;
+    margin-left: 14px;
+ }
   .in{
     width: 80px;
     height: 22px;
@@ -154,7 +144,7 @@ table {
   }
   .thescreva{
       position: relative;
-      padding-bottom: 130px;
+      padding-bottom: 100px;
   }
 
   textarea{
@@ -174,8 +164,7 @@ table {
       position: relative;
       left: 15px;
   }
-  .finalizar{
-    margin: 10px;;
+   #btplanilha{
     width: 120px;
     height: 25px;
     background-color: #D92027;
@@ -184,7 +173,32 @@ table {
     border-bottom: 3px solid black;
     font-weight: 600;
     cursor: pointer;
-    position: relative;
-    left: 25%;
-    bottom: 100px;
  }
+ #enviarPlanilha{
+     text-align: center;
+ }
+
+ /* table sor*/
+ #sabores{
+    text-align: center;
+ }
+ #botoes1{
+    text-align: center;
+ }
+ #enviar, #estorno{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 120px;
+    height: 25px;
+    background-color: #D92027;
+    border:#D92027;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    cursor: pointer;
+ }
+ #tabela{
+
+ }
+
+ 
